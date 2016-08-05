@@ -2,7 +2,25 @@
 scrapinghub-stack-scrapy
 ========================
 
-Software stack based on Python 3 with latest Scrapy and updated deps.
+Software stack with latest Scrapy and updated deps.
+
+
+Branches and tags
+=================
+
+The repository includes a set of branches to maintain different stack versions depending on supported Python version and on Scrapy version included in the stack.
+
+  Examples:
+
+  - ``branch-1.0`` - Python 2 branch with Scrapy 1.0
+  - ``branch-1.1`` - Python 2 branch with Scrapy 1.1
+  - ``branch-1.1-py3`` - Python 3 branch with Scrapy 1.1
+
+
+Versioning
+==========
+
+We use git tags to pin a stack version and release a stack image to Docker hub.
 
 
 Branches and tags
